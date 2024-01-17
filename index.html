@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="rating-wrapper">
+        <div class="rating">
+          <form
+            id="rating"
+            class="rating-side rating-front"
+            onsubmit="submitForm(event)"
+          >
+            <div class="rating__icon">
+              <img src="images/icon-star.svg" alt="" />
+            </div>
+            <h1 class="rating__title">How did we do?</h1>
+            <p class="rating__text">
+              Please let us know how we did with your support request. All
+              feedback is appreciated to help us improve our offering!
+            </p>
+            <div class="rating__stars">
+              <label class="rating__star">
+                <span>1</span>
+                <input type="radio" name="rating" value="1" />
+              </label>
+              <label class="rating__star">
+                2
+                <input type="radio" name="rating" value="2" />
+              </label>
+              <label class="rating__star">
+                3
+                <input type="radio" name="rating" value="3" />
+              </label>
+              <label class="rating__star">
+                4
+                <input type="radio" name="rating" value="4" />
+              </label>
+              <label class="rating__star">
+                5
+                <input type="radio" name="rating" value="5" />
+              </label>
+            </div>
+            <button type="submit" class="rating__btn">Submit</button>
+          </form>
+          <div class="rating-side rating-back">
+            <img class="rating-back__icon" src="images/illustration-thank-you.svg" alt="thank you" />
+            <div class="rating-back__result">You selected 4 out of 5</div>
+            <h1 class="rating-back__title">Thank you!</h1>
+            <p class="rating-back__text">
+              We appreciate you taking the time to give a rating. If you ever
+              need more support, don’t hesitate to get in touch!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
