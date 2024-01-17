@@ -236,7 +236,7 @@ body {
   margin-bottom: var(--r-back-result-spacing);
   border-radius: 1.40625rem;
   color: var(--clr-primary);
-  background: var(F--neutral-600);
+  background: var(--neutral-600);
 }
 
 .rating-back__title {

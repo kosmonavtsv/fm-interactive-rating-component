@@ -25,11 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
+![Desktop gif](./screenshots/desktop.gif)
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Github page](https://kosmonavtsv.github.io/interactive-rating-component)
 
 ## Useful resources
 
-- [Flip animation](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Flip animation](https://www.w3schools.com/howto/howto_css_flip_card.asp)
