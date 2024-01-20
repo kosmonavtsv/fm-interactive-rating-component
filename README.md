@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [frontendmentor.io](https://www.frontendmentor.io/solutions/interactive-rating-component-flip-animation-yANMHYMjTG)
-- Live Site URL: [Github page](https://kosmonavtsv.github.io/interactive-rating-component)
+- Live Site URL: [Github page](https://kosmonavtsv.github.io/fm-interactive-rating-component)
 
 ## Useful resources
 
